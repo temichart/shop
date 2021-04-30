@@ -8,5 +8,6 @@ $(document).ready(function(){
         autoplaySpeed:2000,
         pauseOnFocus:true,
         pauseOnHover:true,
+        variableWidth:true,
     })
 });

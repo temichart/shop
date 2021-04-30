@@ -1,5 +1,12 @@
 $(document).ready(function(){
     $('.slider').slick({
-        dots:true
+        dots:true,
+        speed:500,
+        Infinite:true,
+        InitialSlide:0,
+        autoplay:true,
+        autoplaySpeed:2000,
+        pauseOnFocus:true,
+        pauseOnHover:true,
     })
 });
